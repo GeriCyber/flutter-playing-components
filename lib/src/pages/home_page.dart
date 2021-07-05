@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playing_components/src/pages/alert_page.dart';
 import 'package:flutter_playing_components/src/providers/menu_provider.dart';
 import 'package:flutter_playing_components/src/utils/icons_utils.dart';
 
@@ -38,7 +37,7 @@ class HomePage extends StatelessWidget {
       final widgetTemp = ListTile(
         title: Text(opt['text']),
         leading: getIcon(opt['icon']),
-        trailing: Icon(Icons.check, color: Colors.deepPurple),
+        trailing: Icon(Icons.keyboard_arrow_right_rounded, color: Colors.deepPurple),
         onTap: () => Navigator.pushNamed(context, opt['route']),
       );
 

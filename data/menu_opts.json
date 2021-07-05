@@ -4,7 +4,7 @@
         {
             "route" : "alert",
             "icon" : "add_alert",
-            "text": "Alertas"
+            "text": "Alerts"
         },
         {
             "route" : "avatar",
@@ -14,7 +14,27 @@
         {
             "route" : "card",
             "icon" : "folder_open",
-            "text": "Cards - Tarjetas"
+            "text": "Cards"
+        },
+        {
+            "route" : "animatedContainer",
+            "icon" : "donut_large",
+            "text": "Animated Container"
+        },
+        {
+            "route" : "inputs",
+            "icon" : "input",
+            "text": "Inputs"
+        },
+        {
+            "route" : "slider",
+            "icon" : "slider",
+            "text": "Slider"
+        },
+        {
+            "route" : "list",
+            "icon" : "list",
+            "text": "List"
         }
     ]
 }
